@@ -1,10 +1,10 @@
 /*Add the region of resources below. 
 default_value: "us-east-1", type: String */
-aws_region          = "us-east-1" 
+region          = "us-east-1" 
 
 /*Add the ami_id for the EC2 instance below. 
 #default_value: latest amzn linux2 will be autofetched if left blank, type: String */
-ami_id              ="" 
+ami              ="" 
 
 /*Add the number of the EC2 instances. 
 #default_value: 1, type: String */
