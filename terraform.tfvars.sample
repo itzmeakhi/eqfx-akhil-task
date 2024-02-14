@@ -1,0 +1,19 @@
+/*Add the region of resources below. 
+default_value: "us-east-1", type: String */
+aws_region          = "us-east-1" 
+
+/*Add the ami_id for the EC2 instance below. 
+#default_value: latest amzn linux2 will be autofetched if left blank, type: String */
+ami_id              ="" 
+
+/*Add the number of the EC2 instances. 
+#default_value: 1, type: String */
+instance_count = "2"
+
+/*Add the instance type of EC2 below. 
+default_value: "t2.micro", type: String */
+instance_type       = "t2.micro" 
+
+#Add the instance name of EC2 below. default_value: "myEC2instance", type: String
+instance_name       = "myEC2" 
+
